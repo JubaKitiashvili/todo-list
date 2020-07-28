@@ -8,9 +8,13 @@ import TodoList from './components/TodoList.js';
 
 function App() {
   return (
-    <div className="App">
-      <TodoInput />
-      <TodoList />
+    <div>
+      <div className="container">
+        <div className="dow">
+          <TodoInput />
+          <TodoList />
+        </div>
+      </div>
     </div>
   );
 }
